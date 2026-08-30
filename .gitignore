@@ -1,0 +1,12 @@
+# Vercel
+.vercel/
+
+# Sistem
+.DS_Store
+Thumbs.db
+
+# Log & cache
+*.log
+
+# Folder kandidat gambar (tidak ikut repo)
+pilih-gambar/
