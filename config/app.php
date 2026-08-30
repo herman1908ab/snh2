@@ -10,7 +10,7 @@
 $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
 // Buang port jika ada (contoh: localhost:8080 -> localhost)
 $hostName = parse_url('http://' . $host, PHP_URL_HOST) ?: $host;
-$isLocal = in_array($hostName, ['localhost', '127.0.0.1'], true)
+$isLocal = in_array($hostName, ['localhost', '127.0'], true)
     || str_starts_with($hostName, '192.168.')
     || str_starts_with($hostName, '10.');
 
