@@ -1,0 +1,25 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "images_OLD/**",
+      "index.php"
+    ],
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "headers": [
+      {
+        "source": "**/*.@(jpg|jpeg|png|gif|webp|mp4)",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      }
+    ]
+  }
+}

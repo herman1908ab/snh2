@@ -7,6 +7,10 @@ Thumbs.db
 
 # Log & cache
 *.log
+firebase-debug.log
+
+# Firebase
+.firebase/
 
 # Folder kandidat gambar (tidak ikut repo)
 pilih-gambar/
